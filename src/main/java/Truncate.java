@@ -1,5 +1,5 @@
 import Util.ConnectionUtil;
-import Util.FileUtil;
+//import Util.FileUtil;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -27,7 +27,8 @@ public class Truncate {
         /**
          * problem2: remove all the records from the table "song". Please refer to the README.MD for where to place your code. 
          */
-        String sql = FileUtil.parseSQLFile("problem2.sql");
+       //String sql = FileUtil.parseSQLFile("problem2.sql");
+        String sql = "TRUNCATE TABLE Song";
 
 
 
